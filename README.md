@@ -12,13 +12,12 @@ I run a small server at home that hosts several isolated mini-servers. This proj
 - [Write-up: why routing my internet through my home VPN cut my download speed by 40%](https://github.com/Sqxirts/homelab-hardening/blob/main/writeups/exit-node-bandwidth.md)
 - [Write-up: finding that every device on my VPN could reach every server, and locking it down](https://github.com/Sqxirts/homelab-hardening/blob/main/writeups/vpn-access-review.md)
 
-**kraken-trader** (private)
+**kraken-trader** (private repo, code available on request)
 A research tool for testing cryptocurrency trading strategies on the Kraken exchange. It's built to prove a strategy wrong before it costs money: tests run on historical prices with no way to peek at future data, trading fees are counted, and anything new runs with fake money first. No strategy has passed yet, so it doesn't trade with real money.
 
 ## Smaller projects
 
 - [video-transcriber](https://github.com/Sqxirts/video-transcriber): turns video and audio into text, running entirely on my own hardware
-- [pihole-tui](https://github.com/Sqxirts/pihole-tui): a text-based dashboard for Pi-hole, a network-wide ad blocker
 - [minecraft-docker-server](https://github.com/Sqxirts/minecraft-docker-server) and [palworld-docker-server](https://github.com/Sqxirts/palworld-docker-server): game servers packaged so they can be rebuilt with one command, with passwords kept out of the code
 - [system-cleanup](https://github.com/Sqxirts/system-cleanup): a guided disk cleanup script for Windows
 - [portfolio](https://github.com/Sqxirts/james-portfolio): my personal website
