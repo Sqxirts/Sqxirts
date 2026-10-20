@@ -1,30 +1,33 @@
 # James Cherny IV
 
-Cyber defense student at the University of Arizona. I run a Proxmox home lab on a Dell PowerEdge R630 and treat it like production: a separate access key for every system, default-deny firewalls, and backups I have actually restored.
+Cyber Defense student at the University of Arizona. I like building things to find out how they work and where they break, and I'm looking to learn as much of the field as I can. Open to entry-level roles in security and engineering.
 
-Looking for cybersecurity and security operations internships in Tucson, remote, or hybrid.
+## Projects
 
-## Start here
+**[lectern](https://github.com/Sqxirts/lectern)**
+An add-on for Obsidian, a popular note-taking app, that lets you open Word, Excel, and PowerPoint files right inside your notes. Slides are rebuilt as web pages, so you can select and copy their text. To check accuracy, I compare screenshots of my version against PowerPoint's own output pixel by pixel instead of judging by eye. Comments you leave are saved as ordinary text files, so they stay readable even without the add-on. It's approved and listed in Obsidian's official plugin directory.
 
-**[homelab-hardening](https://github.com/Sqxirts/homelab-hardening)** is my lab's security baseline as code: SSH, fail2ban, firewall and VPN policy, plus `verify-baseline.sh`, which reads each host's live settings and fails when they drift from the standard. Applying a baseline is easy. Knowing it still applies three months later is the part I built this for.
+**[homelab-hardening](https://github.com/Sqxirts/homelab-hardening)**
+I run a small server at home that hosts several isolated mini-servers. This project is the set of security rules they all follow (who can log in, what network traffic is allowed, how repeated failed logins get blocked), written as scripts so every machine gets the same setup. It also includes a checker that inspects each machine's current settings and flags anything that has quietly changed. Setting security up once is easy; this confirms it still holds months later.
+- [Write-up: why routing my internet through my home VPN cut my download speed by 40%](https://github.com/Sqxirts/homelab-hardening/blob/main/writeups/exit-node-bandwidth.md)
+- [Write-up: finding that every device on my VPN could reach every server, and locking it down](https://github.com/Sqxirts/homelab-hardening/blob/main/writeups/vpn-access-review.md)
 
-Two incident write-ups from that work:
+**kraken-trader** (private)
+A research tool for testing cryptocurrency trading strategies on the Kraken exchange. It's built to prove a strategy wrong before it costs money: tests run on historical prices with no way to peek at future data, trading fees are counted, and anything new runs with fake money first. No strategy has passed yet, so it doesn't trade with real money.
 
-- [The VPN exit node that ate 40% of my download speed](https://github.com/Sqxirts/homelab-hardening/blob/main/writeups/exit-node-bandwidth.md): 491 Mbps on an 800 Mbps line, and the cause was two layers above the network card I spent two hours tuning.
-- [Access review: my VPN was allow-all](https://github.com/Sqxirts/homelab-hardening/blob/main/writeups/vpn-access-review.md): a guest laptop could reach every server, so I rewrote the policy to grant only what each person needs.
+## Smaller projects
 
-## Other projects
+- [video-transcriber](https://github.com/Sqxirts/video-transcriber): turns video and audio into text, running entirely on my own hardware
+- [pihole-tui](https://github.com/Sqxirts/pihole-tui): a text-based dashboard for Pi-hole, a network-wide ad blocker
+- [minecraft-docker-server](https://github.com/Sqxirts/minecraft-docker-server) and [palworld-docker-server](https://github.com/Sqxirts/palworld-docker-server): game servers packaged so they can be rebuilt with one command, with passwords kept out of the code
+- [system-cleanup](https://github.com/Sqxirts/system-cleanup): a guided disk cleanup script for Windows
+- [portfolio](https://github.com/Sqxirts/james-portfolio): my personal website
 
-- **[palworld-docker-server](https://github.com/Sqxirts/palworld-docker-server)**: containerized Palworld dedicated server with Docker Compose, secrets kept out of the repo
-- **[minecraft-docker-server](https://github.com/Sqxirts/minecraft-docker-server)**: Paper Minecraft server with Docker Compose, secrets kept out of the repo
-- **[video-transcriber](https://github.com/Sqxirts/video-transcriber)**: local video and audio transcription (yt-dlp and faster-whisper) in a hardened LXC container
-- **[pihole-tui](https://github.com/Sqxirts/pihole-tui)**: terminal UI for Pi-hole stats
-- **[system-cleanup](https://github.com/Sqxirts/system-cleanup)**: interactive Windows disk cleanup script
-- **[james-portfolio](https://github.com/Sqxirts/james-portfolio)**: source for my personal site, static HTML and CSS
+## Tools
 
-## What I work with
-
-Proxmox VE, LXC, Linux, Tailscale, Pi-hole, fail2ban, ufw, Docker, Python, Bash, C
+- **Languages:** Python, Bash (Linux scripting), TypeScript
+- **Systems:** Linux, Docker (packages apps so they run the same anywhere), Proxmox (runs many virtual servers on one machine)
+- **Other:** Git, Tailscale (private VPN between my devices)
 
 ## Contact
 
