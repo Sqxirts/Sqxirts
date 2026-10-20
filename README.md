@@ -26,7 +26,7 @@ A research tool for testing cryptocurrency trading strategies on the Kraken exch
 ## Tools
 
 - **Languages:** Python, Bash (Linux scripting), TypeScript
-- **Systems:** Linux, Docker (packages apps so they run the same anywhere), Proxmox (runs many virtual servers on one machine)
+- **Systems:** Linux, Docker, Proxmox
 - **Other:** Git, Tailscale (private VPN between my devices)
 
 ## Contact
