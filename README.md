@@ -1,4 +1,4 @@
-# James Cherny IV
+# Hi, I'm James
 
 Cyber Defense student at the University of Arizona. I like building things to find out how they work and where they break, and I'm looking to learn as much of the field as I can. Open to entry-level roles in security and engineering.
 
@@ -20,7 +20,6 @@ A research tool for testing cryptocurrency trading strategies on the Kraken exch
 - [video-transcriber](https://github.com/Sqxirts/video-transcriber): turns video and audio into text, running entirely on my own hardware
 - [minecraft-docker-server](https://github.com/Sqxirts/minecraft-docker-server) and [palworld-docker-server](https://github.com/Sqxirts/palworld-docker-server): game servers packaged so they can be rebuilt with one command, with passwords kept out of the code
 - [system-cleanup](https://github.com/Sqxirts/system-cleanup): a guided disk cleanup script for Windows
-- [portfolio](https://github.com/Sqxirts/james-portfolio): my personal website
 
 ## Tools
 
